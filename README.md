@@ -1,4 +1,4 @@
-## About Laravel
+## About Laravel Subroto
 # Name Route
 Route::get('/register', [RegisterController::class, 'index'])->name('register'); 
 {{ route('register') }} // in any href="", could be contorlled centrally
